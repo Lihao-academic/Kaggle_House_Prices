@@ -23,3 +23,8 @@ Housing_Prices/
     ├── processing.py # 进行中
     └── features.py # 进行中
 ```
+
+有关项目更详细的介绍可以在个人主页查看
+```
+https://lihao-academic.github.io/portfolio/
+```
