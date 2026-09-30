@@ -13,18 +13,32 @@ Housing_Prices/
 │       ├── test.csv
 │       └── train.csv
 ├── notebooks/
-│   ├── 01_Exploration.ipynb # 已完成
-│   ├── 02_Cleaning_and_preprocesing.ipynb # 已完成
-│   ├── 03_Feature Engineering.ipynb # 已完成
-│   ├── 04_Modelling.ipynb # 进行中
-│   └── 05_Results_and_Analysis.ipynb # 进行中
+│   ├── 01_Exploration.ipynb
+│   ├── 02_Cleaning_and_preprocesing.ipynb
+│   ├── 03_Feature Engineering.ipynb
+│   ├── 04_Modelling_baseline.ipynb
+│   ├── 05_Modelling_feature_engineered.ipynb
+│   ├── 06_predicting.ipynb
+│   └── 07_Final_Demo.ipynb
 ├── outputs/
+│   └── submission.csv
+├── scripts/
 └── src/
-    ├── processing.py # 进行中
-    └── features.py # 进行中
+    ├── cleaning.py
+    ├── feature_engineering.py
+    ├── feature_selection.py
+    ├── preprocessing.py
+    └── evaluation.py
 ```
+
+其中，01-06 Jupyter Notebook都是探索过程，内容比较混乱，清晰的实验和完整流程在`07_Final_Demo.ipynb`（即将完成），`07_Final_Demo.ipynb`没有细节实现，而是直接调用由探索过程中固定到`.py`中的代码。
+
+
+
 
 有关项目更详细的介绍可以在个人主页查看
 ```
 https://lihao-academic.github.io/portfolio/
 ```
+
+
